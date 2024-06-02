@@ -1,0 +1,14 @@
+.screenContainer {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+    background-image: url('../../assets/background.png');
+    background-repeat: no-repeat;
+    background-position: 0% -400%;
+
+}
+
+.screenContainer .innerContainer {
+    margin: 0 40px;
+}
