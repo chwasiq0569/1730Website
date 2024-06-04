@@ -1,0 +1,76 @@
+.sectiontTwoContainer {
+    width: 100%;
+    height: auto;
+    padding: 0.5rem 100px;
+}
+
+.sectiontTwoContainer .boxes {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sectiontTwoContainer .boxes .box {
+    width: 20px;
+    height: 20px;
+    border: 5px solid black;
+    margin-left: 5rem;
+}
+
+.sectiontTwoContainer .boxes .filled {
+    background-color: black;
+}
+
+.sectiontTwoContainer .textContainer {
+    width: 100%;
+    height: auto;
+    margin: 6rem 0;
+}
+
+.sectiontTwoContainer .textContainer .textRow {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.sectiontTwoContainer .textContainer .textRow:nth-child(2) {
+    margin-top: -2rem;
+}
+
+.sectiontTwoContainer .textContainer .textRow:nth-child(3),
+.sectiontTwoContainer .textContainer .textRow:nth-child(4),
+.sectiontTwoContainer .textContainer .textRow:nth-child(5) {
+    margin-top: -1rem;
+}
+
+.sectiontTwoContainer .textContainer .textRow span {
+    font-size: 58px;
+    font-family: Apercu-Pro;
+}
+
+.sectiontTwoContainer .textContainer .textRow img {
+    margin-right: -10px;
+}
+
+.sectiontTwoContainer .textContainer .textRow .bold {
+    font-weight: bolder;
+
+    font-family: Apercu-Bold-Pro;
+
+    font-size: 100px;
+}
+
+/* .sectiontTwoContainer .textContainer .textRow .medium {
+    font-family: Apercu-Pro;
+} */
+
+.sectiontTwoContainer .textContainer .textRow .broad {
+    font-size: 82px;
+    letter-spacing: 4px;
+}
+
+.sectiontTwoContainer .textContainer .textRow .light {
+    font-family: Apercu-Extra-Light-Pro;
+}

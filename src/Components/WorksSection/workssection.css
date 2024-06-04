@@ -1,0 +1,90 @@
+.worksSectionContainer {
+    width: 100%;
+    height: auto;
+}
+
+.worksSectionContainer .sectionHeader {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 200px;
+    margin-top: 0.75rem;
+}
+
+.worksSectionContainer .sectionHeader p {
+    font-size: 32px;
+    font-family: Apercu-Pro;
+}
+
+.worksSectionContainer .works .work {
+    height: 375px;
+    display: flex;
+    border-top: 2px solid black;
+    padding: 0.75rem 200px;
+}
+
+.worksSectionContainer .works .work:last-child {
+    border-bottom: 2px solid black;
+}
+
+.worksSectionContainer .works .work .left,
+.worksSectionContainer .works .work .right {
+    width: 50%;
+}
+
+.worksSectionContainer .works .work .left {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.worksSectionContainer .works .work .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 1rem;
+}
+
+.worksSectionContainer .works .work .right .workNo {
+    font-family: Apercu-Pro;
+    font-size: 28px;
+}
+
+.worksSectionContainer .works .work .right .tags {
+    display: flex;
+}
+
+.worksSectionContainer .works .work .right .tags p {
+    text-transform: uppercase;
+    border: 2px solid black;
+    border-radius: 3px;
+
+    font-family: Apercu-Pro;
+    padding: 0.25rem 0.5rem;
+}
+
+.worksSectionContainer .works .work .right .tags p:nth-child(2) {
+    margin: 0 1rem;
+}
+
+.worksSectionContainer .works .work .right .title {
+    display: flex;
+    align-items: center;
+}
+
+
+.worksSectionContainer .works .work .right .title p {
+    font-family: Apercu-Pro;
+    font-size: 28px;
+}
+
+.worksSectionContainer .works .work .right .title img {
+    border: 1px solid black;
+    padding: 0.1rem 0.25rem;
+
+    margin-left: 1rem;
+}

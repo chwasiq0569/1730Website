@@ -1,0 +1,39 @@
+.servicesContainer {
+    width: 100%;
+}
+
+.servicesContainer h1 {
+    padding: 1rem 200px;
+    border-bottom: 2px solid black;
+    font-family: Apercu-Light-Pro;
+}
+
+.servicesContainer .servicesList {
+    margin: 0 200px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-top: 2px solid black;
+}
+
+.servicesContainer .servicesList .col p {
+    font-family: Apercu-Pro;
+
+    font-size: 18px;
+
+    line-height: 1.3;
+}
+
+.servicesContainer .servicesList .col .listHead {
+    font-family: "Poppins", sans-serif;
+
+    text-transform: uppercase;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    margin: 1rem 0;
+}

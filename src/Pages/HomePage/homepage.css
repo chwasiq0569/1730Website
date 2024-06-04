@@ -2,13 +2,39 @@
     width: 100%;
     height: auto;
     margin: 0 auto;
-
     background-image: url('../../assets/background.png');
     background-repeat: no-repeat;
     background-position: 0% -400%;
-
 }
 
 .screenContainer .innerContainer {
-    margin: 0 40px;
+    /* margin: 0 40px; */
+}
+
+.screenContainer .innerContainer .sectionEnding {
+    width: 100%;
+}
+
+.screenContainer .innerContainer .sectionEnding .lineOne {
+    height: 5px;
+    background-color: black;
+    margin-top: 0.75rem;
+}
+
+.screenContainer .innerContainer .sectionEnding .lineTwo {
+    height: 8px;
+    background-color: black;
+    margin-top: 0.75rem;
+}
+
+.screenContainer .innerContainer .sectionEnding .lineThree {
+    height: 12px;
+    background-color: black;
+    margin-top: 0.75rem;
+}
+
+.screenContainer .innerContainer .sectionEnding .lineFour {
+    height: 15px;
+    background-color: black;
+    margin-top: 0.75rem;
 }
