@@ -7,6 +7,8 @@ import SectionThree from '../../Components/SectionThree/SectionThree'
 import Services from '../../Components/Services/Services'
 import Clients from '../../Components/Clients/Clients'
 import WorldWarX from '../../Components/WorldWarX/WorldWarX'
+import NFTSection from '../../Components/NFTSection/NFTSection'
+import WhySection from '../../Components/WhySection/WhySection'
 
 export default function HomePage() {
     return (
@@ -25,6 +27,8 @@ export default function HomePage() {
                 <Services />
                 <Clients />
                 <WorldWarX />
+                <NFTSection />
+                <WhySection />
             </div>
         </div>
     )

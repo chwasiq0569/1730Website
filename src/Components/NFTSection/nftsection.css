@@ -1,0 +1,134 @@
+.nftSectionContainer {
+    width: 100%;
+    height: auto;
+    margin-top: 8rem;
+
+    border-bottom: 4px solic black;
+    padding-bottom: 2rem;
+}
+
+.nftSectionContainer .nftSectionHead {
+    font-family: Apercu-Bold-Pro;
+    text-align: center;
+    font-size: 36px;
+
+    letter-spacing: -3px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nftSectionContainer .nftSectionHead span {
+    font-family: Apercu-Pro;
+
+    letter-spacing: normal;
+
+    font-size: 24px;
+}
+
+.nftSectionContainer .soldiersCover {
+    width: 100%;
+    object-fit: contain;
+}
+
+.nftSectionContainer .coins {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 200px;
+}
+
+.nftSectionContainer .coins img {
+    object-fit: contain;
+}
+
+.nftSectionContainer .bDuckCoinDetails {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    border-bottom: 3px solid black;
+    padding-bottom: 5rem;
+}
+
+.nftSectionContainer .bDuckCoinDetails .leftSide {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nftSectionContainer .bDuckCoinDetails .rightSide {
+    width: 35%;
+}
+
+.nftSectionContainer .bDuckCoinDetails .rightSide p {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    line-height: 0.9;
+    font-size: 80px;
+    letter-spacing: -3px;
+    font-weight: 700;
+}
+
+.nftSectionContainer .bDuckCoinDetails .rightSide .coinLink {
+    display: flex;
+}
+
+.nftSectionContainer .bDuckCoinDetails .rightSide .coinLink p {
+    font-family: Apercu-Pro;
+    margin: 1rem 0;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.nftSectionContainer .bDuckCoinDetails .rightSide .coinLink img {
+    object-fit: contain;
+    margin-left: 1rem;
+}
+
+.nftSectionContainer .curfluffleSection {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 6rem;
+    justify-content: center;
+}
+
+.nftSectionContainer .curfluffleSection .curfflufle_logo_down {
+    width: 100px;
+    object-fit: contain;
+    margin: 0 3rem;
+}
+
+.nftSectionContainer .curfluffleSection .logoAndLink {}
+
+.nftSectionContainer .curfluffleSection .logoAndLink p {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    line-height: 0.9;
+    font-size: 80px;
+    letter-spacing: -3px;
+    font-weight: 700;
+}
+
+.nftSectionContainer .curfluffleSection .logoAndLink .curfluffleLink {
+    display: flex;
+}
+
+.nftSectionContainer .curfluffleSection .logoAndLink .curfluffleLink p {
+    font-family: Apercu-Pro;
+    margin: 1rem 0;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.nftSectionContainer .curfluffleSection .logoAndLink .curfluffleLink img {
+    object-fit: contain;
+    margin-left: 1rem;
+}

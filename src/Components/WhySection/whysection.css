@@ -1,0 +1,44 @@
+.whySectionContainer {
+    width: 100%;
+
+    border: 2px solid red;
+}
+
+.whySectionContainer .whySectionHead {
+    text-align: right;
+    font-family: Apercu-Pro;
+    border-bottom: 2px solid black;
+    padding: 1rem 300px;
+}
+
+.whySectionContainer .whySectionHead span {
+    border-bottom: 4px solid black;
+    padding: 1rem 0;
+}
+
+.whySectionContainer .whySectionContent {
+    display: flex;
+    align-items: center;
+    padding: 4rem 300px;
+}
+
+
+.whySectionContainer .whySectionContent .leftSide {
+    width: 70%;
+}
+
+.whySectionContainer .whySectionContent .rightSide {
+    width: 30%;
+}
+
+.whySectionContainer .whySectionContent .leftSide p {
+    font-family: Apercu-Pro;
+    text-align: right;
+    font-size: 24px;
+    margin: 0 4rem;
+    text-transform: uppercase;
+}
+
+.whySectionContainer .whySectionContent .leftSide p span {
+    font-weight: 600;
+}
