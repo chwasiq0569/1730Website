@@ -13,15 +13,18 @@
 
     display: flex;
     justify-content: space-between;
-    align-items: center;
 
     border-top: 2px solid black;
+}
+
+.servicesContainer .servicesList .col {
+    flex: 1;
 }
 
 .servicesContainer .servicesList .col p {
     font-family: Apercu-Pro;
 
-    font-size: 18px;
+    font-size: 21px;
 
     line-height: 1.3;
 }
@@ -33,7 +36,7 @@
 
     font-size: 13px;
 
-    font-weight: 600;
+    font-weight: 700;
 
     margin: 1rem 0;
 }

@@ -1,0 +1,62 @@
+.clientsContainer {
+    width: 100%;
+
+    margin-top: 15rem;
+}
+
+.clientsContainer .heads {
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.clientsContainer h1 {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    /* padding: 1rem 0; */
+    /* border-bottom: 2px solid black; */
+    font-family: Apercu-Light-Pro;
+    text-align: left;
+    flex: 1;
+}
+
+.clientsContainer h1:nth-child(2),
+.clientsContainer h1:nth-child(3) {
+    border-bottom: 2px solid black;
+}
+
+.clientsContainer .clientsList {
+    margin: 0 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.clientsContainer .clientsList .col {
+    flex: 1;
+}
+
+.clientsContainer .clientsList .col:nth-child(2),
+.clientsContainer .clientsList .col:nth-child(3) {
+    border-top: 2px solid black;
+}
+
+.clientsContainer .clientsList .col p {
+    font-family: Apercu-Pro;
+
+    font-size: 21px;
+
+    line-height: 1.3;
+}
+
+.clientsContainer .clientsList .col .listHead {
+    font-family: "Poppins", sans-serif;
+
+    text-transform: uppercase;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    margin: 1rem 0;
+}

@@ -1,0 +1,118 @@
+.worldwarxContainer {
+    width: 100%;
+    margin-top: 15rem;
+}
+
+.worldwarxContainer .cover {
+    display: flex;
+    padding: 0 200px;
+}
+
+.worldwarxContainer .cover .leftSide,
+.worldwarxContainer .cover .rightSide {}
+
+.worldwarxContainer .cover .leftSide {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.worldwarxContainer .cover .leftSide .pattren {
+    width: 150px;
+    object-fit: contain;
+}
+
+
+.worldwarxContainer .cover .leftSide h1 {
+    font-size: 80px;
+    font-family: "Poppins", sans-serif;
+    line-height: 1;
+
+    font-weight: 800;
+    letter-spacing: -3px;
+
+    margin: 3rem 0;
+}
+
+.worldwarxContainer .cover .leftSide .siteLink {
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.worldwarxContainer .cover .leftSide .siteLink p {
+    color: #B8B8B8;
+}
+
+.worldwarxContainer .cover .leftSide .siteLink img {
+    object-fit: contain;
+    margin-left: 1rem;
+}
+
+.worldwarxContainer .cover .rightSide {
+    width: 60%;
+    margin: 0;
+    padding: 0;
+}
+
+.worldwarxContainer .cover .rightSide img {
+    /* height: 90%; */
+    width: 100%;
+    object-fit: contain;
+    margin: 0;
+    padding: 0;
+}
+
+.worldwarxContainer .grandCover {
+    width: 100%;
+    object-fit: contain;
+
+    margin-top: -5px;
+}
+
+.worldwarxContainer .gameDetails {
+    display: flex;
+    padding: 0 200px;
+
+
+    margin-top: -5px;
+}
+
+.worldwarxContainer .gameDetails .leftSide {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.worldwarxContainer .gameDetails .leftSide .lower,
+.worldwarxContainer .gameDetails .leftSide .upper {}
+
+.worldwarxContainer .gameDetails .leftSide .upper {
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+}
+
+.worldwarxContainer .gameDetails .leftSide .lower {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 25%;
+
+    border-top: 4px solid black;
+}
+
+.worldwarxContainer .gameDetails .leftSide .lower img {
+    width: 60%;
+    object-fit: contain;
+}
+
+.worldwarxContainer .gameDetails .rightSide {
+    width: 30%;
+}

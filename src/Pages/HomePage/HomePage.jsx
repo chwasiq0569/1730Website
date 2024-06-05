@@ -5,6 +5,8 @@ import SectionTwo from '../../Components/SectionTwo/SectionTwo'
 import WorksSection from '../../Components/WorksSection/WorksSection'
 import SectionThree from '../../Components/SectionThree/SectionThree'
 import Services from '../../Components/Services/Services'
+import Clients from '../../Components/Clients/Clients'
+import WorldWarX from '../../Components/WorldWarX/WorldWarX'
 
 export default function HomePage() {
     return (
@@ -21,7 +23,8 @@ export default function HomePage() {
                 <WorksSection />
                 <SectionThree />
                 <Services />
-                <Services />
+                <Clients />
+                <WorldWarX />
             </div>
         </div>
     )
