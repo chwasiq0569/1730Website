@@ -1,0 +1,98 @@
+.footerContainer {
+    width: 100%;
+
+    margin-top: 8rem;
+}
+
+.footerContainer .upperFooter {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 100px;
+}
+
+.footerContainer .upperFooter li {
+    font-family: Apercu-Pro;
+    margin-left: 3rem;
+    list-style-type: none;
+    font-size: 18px;
+    border-bottom: 2px solid black;
+
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.footerContainer .upperFooter li:hover {
+    transform: scale(1.1);
+}
+
+
+.footerContainer .lowerFooter {
+    display: flex;
+
+    margin-top: 3rem;
+}
+
+.footerContainer .lowerFooter .leftImage {
+    height: 600px;
+    object-fit: contain;
+}
+
+.footerContainer .lowerFooter .rightContent .footerHead {
+    font-family: Apercu-Pro;
+    font-size: 150px;
+}
+
+.footerContainer .lowerFooter .rightContent .footerLinks {
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin-top: 4rem;
+    /* margin-left: ; */
+
+}
+
+
+.footerContainer .lowerFooter .rightContent .footerLinks .left,
+.footerContainer .lowerFooter .rightContent .footerLinks .right {
+    margin-left: 8rem;
+}
+
+.footerContainer .lowerFooter .rightContent .footerLinks .left .linkItem,
+.footerContainer .lowerFooter .rightContent .footerLinks .right .linkItem {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+.footerContainer .lowerFooter .rightContent .footerLinks .left .linkItem p,
+.footerContainer .lowerFooter .rightContent .footerLinks .right .linkItem p {
+    font-family: Apercu-Medium-Pro;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.footerContainer .lowerFooter .rightContent .footerLinks .left .linkItem img,
+.footerContainer .lowerFooter .rightContent .footerLinks .right .linkItem img {
+    width: 15px;
+    height: 15px;
+    object-fit: contain;
+    margin-left: 1rem;
+    transition: all 0.3s ease;
+}
+
+.footerContainer .lowerFooter .rightContent .footerLinks .left .linkItem:hover p,
+.footerContainer .lowerFooter .rightContent .footerLinks .right .linkItem:hover p {
+    font-size: 22px;
+}
+
+.footerContainer .lowerFooter .rightContent .footerLinks .left .linkItem:hover img,
+.footerContainer .lowerFooter .rightContent .footerLinks .right .linkItem:hover img {
+    margin-left: 2rem;
+}
+
+.footerContainer .allRightsReserved {
+    text-align: center;
+    font-family: Apercu-Pro;
+    margin: 2rem 0;
+}

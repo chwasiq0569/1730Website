@@ -1,0 +1,71 @@
+.whoWeAreSectionContainer {
+    width: 100%;
+    height: auto;
+}
+
+.whoWeAreSectionContainer .WhoWeAreSectionHead {
+    font-family: Apercu-Pro;
+    border-bottom: 2px solid black;
+    padding: 1rem 300px;
+}
+
+.whoWeAreSectionContainer .WhoWeAreSectionHead span {
+    border-bottom: 4px solid black;
+    padding: 1rem 0;
+}
+
+.whoWeAreSectionContainer .secondaryText {
+    font-family: Apercu-Pro;
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+
+    padding: 3rem 300px;
+}
+
+.whoWeAreSectionContainer .secondaryText span {
+    font-weight: 600;
+}
+
+.whoWeAreSectionContainer .profiles {
+    width: 100%;
+    padding: 1rem 400px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.whoWeAreSectionContainer .profiles .profile {
+    width: 300px;
+}
+
+.whoWeAreSectionContainer .profiles .profile img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.whoWeAreSectionContainer .profiles .profile .name {
+    font-size: 24px;
+    font-family: Apercu-Pro;
+
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+
+}
+
+.whoWeAreSectionContainer .profiles .profile .role {
+    font-size: 16px;
+    font-family: Apercu-Pro;
+
+    text-transform: uppercase;
+
+    margin-top: 0.5rem;
+}
+
+.whoWeAreSectionContainer .profiles .profile .details {
+    font-size: 14px;
+    font-family: Apercu-Pro;
+    margin-top: 0.5rem;
+    line-height: 1.5;
+}

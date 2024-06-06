@@ -2,7 +2,6 @@
     width: 100%;
     height: auto;
     margin-top: 8rem;
-
     border-bottom: 4px solic black;
     padding-bottom: 2rem;
 }
@@ -11,9 +10,7 @@
     font-family: Apercu-Bold-Pro;
     text-align: center;
     font-size: 36px;
-
     letter-spacing: -3px;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,9 +18,7 @@
 
 .nftSectionContainer .nftSectionHead span {
     font-family: Apercu-Pro;
-
     letter-spacing: normal;
-
     font-size: 24px;
 }
 
@@ -47,7 +42,6 @@
     width: 100%;
     display: flex;
     align-items: center;
-
     border-bottom: 3px solid black;
     padding-bottom: 5rem;
 }
@@ -74,6 +68,8 @@
 
 .nftSectionContainer .bDuckCoinDetails .rightSide .coinLink {
     display: flex;
+
+    cursor: pointer;
 }
 
 .nftSectionContainer .bDuckCoinDetails .rightSide .coinLink p {
@@ -83,11 +79,24 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: normal;
+
+    transition: all 0.3s ease;
 }
 
 .nftSectionContainer .bDuckCoinDetails .rightSide .coinLink img {
     object-fit: contain;
     margin-left: 1rem;
+    transition: all 0.3s ease;
+
+}
+
+.nftSectionContainer .bDuckCoinDetails .rightSide .coinLink:hover p {
+    transform: scale(1.1);
+    transform-origin: 0 50%;
+}
+
+.nftSectionContainer .bDuckCoinDetails .rightSide .coinLink:hover img {
+    margin-left: 4rem;
 }
 
 .nftSectionContainer .curfluffleSection {
@@ -96,6 +105,8 @@
     align-items: center;
     margin-top: 6rem;
     justify-content: center;
+
+    padding-bottom: 8rem;
 }
 
 .nftSectionContainer .curfluffleSection .curfflufle_logo_down {
@@ -117,6 +128,8 @@
 
 .nftSectionContainer .curfluffleSection .logoAndLink .curfluffleLink {
     display: flex;
+
+    cursor: pointer;
 }
 
 .nftSectionContainer .curfluffleSection .logoAndLink .curfluffleLink p {
@@ -126,9 +139,20 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: normal;
+    transition: all 0.3s ease;
 }
 
 .nftSectionContainer .curfluffleSection .logoAndLink .curfluffleLink img {
     object-fit: contain;
     margin-left: 1rem;
+    transition: all 0.3s ease;
+}
+
+.nftSectionContainer .curfluffleSection .logoAndLink .curfluffleLink:hover p {
+    transform: scale(1.1);
+    transform-origin: 0 50%;
+}
+
+.nftSectionContainer .curfluffleSection .logoAndLink .curfluffleLink:hover img {
+    margin-left: 4rem;
 }

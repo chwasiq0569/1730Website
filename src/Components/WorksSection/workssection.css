@@ -85,6 +85,9 @@
 .worksSectionContainer .works .work .right .title img {
     /* border: 1px solid black; */
     /* padding: 0.1rem 0.25rem; */
+    width: 14px;
+    height: 14px;
 
+    object-fit: contain;
     margin-left: 1rem;
 }

@@ -10,14 +10,17 @@ export default function Hero() {
         <div className='heroContainer'>
             <Header />
             <div className='heroText'>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <span>DAY </span>
-                <span>1, </span>
-                <span>7, </span>
-                <span>30 </span>
+                {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}
+                <p className='firstLine'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>DAY </span>
+                    <span>1, </span>
+                    <span>7, </span>
+                    <span>30 </span>
+                    <strong>
+                        <span>is </span>
+                        <span>a </span>
+                    </strong>
+                </p>
                 <strong>
-                    <span>is </span>
-                    <span>a </span>
                     <span>boutIQUE </span>
                     <span>CREATIVE </span>
                     <span>Agency </span>
@@ -27,7 +30,8 @@ export default function Hero() {
                     <span>GROWTH </span>
                     <span>& </span>
                     <span>web </span>
-                    <span>design.</span></strong>
+                    <span>design.</span>
+                </strong>
             </div>
             <div className="cta_buttons">
                 <div className="threeDBtn">

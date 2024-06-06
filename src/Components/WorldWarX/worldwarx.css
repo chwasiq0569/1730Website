@@ -39,15 +39,30 @@
     display: flex;
     align-items: center;
     font-family: "Poppins", sans-serif;
+
+    cursor: pointer;
 }
 
 .worldwarxContainer .cover .leftSide .siteLink p {
     color: #B8B8B8;
+    font-size: 20px;
+    transition: all 0.3s ease;
 }
 
 .worldwarxContainer .cover .leftSide .siteLink img {
     object-fit: contain;
     margin-left: 1rem;
+    transition: all 0.3s ease;
+}
+
+.worldwarxContainer .cover .leftSide .siteLink:hover p {
+    transform: scale(1.1);
+
+    transform-origin: 0 50%;
+}
+
+.worldwarxContainer .cover .leftSide .siteLink:hover img {
+    margin-left: 4rem;
 }
 
 .worldwarxContainer .cover .rightSide {

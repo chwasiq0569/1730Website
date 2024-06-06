@@ -4,7 +4,7 @@
     margin: 0 auto;
     background-image: url('../../assets/background.png');
     background-repeat: no-repeat;
-    background-position: 0% -400%;
+    /* background-position: 0% -400%; */
 }
 
 .screenContainer .innerContainer {

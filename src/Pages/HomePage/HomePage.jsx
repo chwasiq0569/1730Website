@@ -9,6 +9,8 @@ import Clients from '../../Components/Clients/Clients'
 import WorldWarX from '../../Components/WorldWarX/WorldWarX'
 import NFTSection from '../../Components/NFTSection/NFTSection'
 import WhySection from '../../Components/WhySection/WhySection'
+import WhoWeAreSection from '../../Components/WhoWeAreSection/WhoWeAreSection'
+import Footer from '../../Components/Footer/Footer'
 
 export default function HomePage() {
     return (
@@ -29,6 +31,8 @@ export default function HomePage() {
                 <WorldWarX />
                 <NFTSection />
                 <WhySection />
+                <WhoWeAreSection />
+                <Footer />
             </div>
         </div>
     )
