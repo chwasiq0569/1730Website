@@ -4,34 +4,44 @@ import Header from '../Header/Header'
 import PhoneIcon from "../../assets/phoneicon.png"
 import EmailIcon from "../../assets/maleicon.png"
 import ContactIcon from "../../assets/contacticon.png"
+import { motion, useAnimation } from "framer-motion";
+
+const defaultAnimations = {
+    hidden: {
+        opacity: 0,
+        // y: 20,
+    },
+    visible: {
+        opacity: 1,
+        // y: 0,
+        transition: {
+            duration: 0.1,
+        },
+    },
+};
 
 export default function Hero() {
+    const controls = useAnimation();
+    const defaultAnimation = {
+        hidden: {
+            opacity: 0,
+        },
+        visible: {
+            opacity: 1,
+        },
+    };
     return (
         <div className='heroContainer'>
             <Header />
             <div className='heroText'>
-                {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}
-                <p className='firstLine'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>DAY </span>
-                    <span>1, </span>
-                    <span>7, </span>
-                    <span>30 </span>
-                    <strong>
-                        <span>is </span>
-                        <span>a </span>
-                    </strong>
-                </p>
-                <strong>
-                    <span>boutIQUE </span>
-                    <span>CREATIVE </span>
-                    <span>Agency </span>
-                    <span>Specializing </span>
-                    <span>in </span>
-                    <span>branding, </span>
-                    <span>GROWTH </span>
-                    <span>& </span>
-                    <span>web </span>
-                    <span>design.</span>
-                </strong>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                {
+                    "DAY 1, 7, 30 IS A BOUTIQUE CREATIVE AGENCY SPECIALIZING IN BRANDING, GROWTH & WEB DESIGN".split(" ").map((item, i) => (
+                        <motion.span key={i} className={i >= 3 ? "strongText" : ""} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.1, delay: i * 0.1 }}>
+                            {item} &nbsp;
+                        </motion.span>
+                    ))
+                }
             </div>
             <div className="cta_buttons">
                 <div className="threeDBtn">

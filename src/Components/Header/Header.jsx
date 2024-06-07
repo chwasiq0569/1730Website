@@ -19,7 +19,7 @@ export default function Header() {
                 <ul className='contact_details'>
                     <li>contact</li>
                     <li>hi@day1730.com</li>
-                    <div class='social_icons_container'>
+                    <div className='social_icons_container'>
                         <img src={XIcon} alt="x_icon" />
                         <img src={MediumIcon} alt="medium_icon" />
                     </div>
