@@ -4,6 +4,9 @@
     margin-top: 8rem;
     border-bottom: 4px solic black;
     padding-bottom: 2rem;
+
+    border: 2px solid red;
+
 }
 
 .nftSectionContainer .nftSectionHead {
@@ -31,11 +34,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 200px;
+    /* padding: 2rem 200px; */
+
+    border: 2px solid red;
 }
 
 .nftSectionContainer .coins img {
+    flex: 1;
     object-fit: contain;
+
+    border: 2px solid red;
+
 }
 
 .nftSectionContainer .bDuckCoinDetails {
@@ -44,6 +53,7 @@
     align-items: center;
     border-bottom: 3px solid black;
     padding-bottom: 5rem;
+
 }
 
 .nftSectionContainer .bDuckCoinDetails .leftSide {

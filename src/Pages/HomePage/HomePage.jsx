@@ -11,13 +11,15 @@ import NFTSection from '../../Components/NFTSection/NFTSection'
 import WhySection from '../../Components/WhySection/WhySection'
 import WhoWeAreSection from '../../Components/WhoWeAreSection/WhoWeAreSection'
 import Footer from '../../Components/Footer/Footer'
+import Header from '../../Components/Header/Header'
 
 export default function HomePage() {
     return (
         <div className='screenContainer'>
             <div className='innerContainer'>
+                <Header />
                 <Hero />
-                <SectionTwo />
+                {/* <SectionTwo /> */}
                 <div className='sectionEnding'>
                     <div className='lineOne'></div>
                     <div className='lineTwo'></div>
@@ -26,13 +28,13 @@ export default function HomePage() {
                 </div>
                 <WorksSection />
                 <SectionThree />
-                <Services />
+                {/*<Services />
                 <Clients />
                 <WorldWarX />
                 <NFTSection />
-                <WhySection />
-                <WhoWeAreSection />
-                <Footer />
+                <WhySection /> */}
+                {/* <WhoWeAreSection /> */}
+                {/* <Footer /> */}
             </div>
         </div>
     )

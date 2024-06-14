@@ -13,6 +13,8 @@
     line-height: 0.9;
     padding: 3rem 12rem;
     border-bottom: 4px solid black;
+
+    margin-top: 2rem;
 }
 
 .sectionThreeContainer .secondaryText {
@@ -25,4 +27,65 @@
 .sectionThreeContainer img {
     object-fit: contain;
     margin-left: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .sectionThreeContainer .boldText {
+        padding: 3rem 4rem;
+    }
+
+    .sectionThreeContainer .secondaryText {
+        padding-left: 15rem;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .sectionThreeContainer {
+        padding: 0rem 100px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .sectionThreeContainer {
+        padding: 0rem 50px;
+    }
+
+    .sectionThreeContainer .boldText {
+        font-size: 42px;
+        padding: 3rem 2rem;
+    }
+
+    .sectionThreeContainer .secondaryText {
+        font-size: 26px;
+        padding: 1rem 0;
+        padding-left: 12rem;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .sectionThreeContainer {
+        padding: 0.5rem 0.5rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sectionThreeContainer .boldText {
+        font-size: 32px;
+        padding: 2rem 2rem;
+    }
+
+    .sectionThreeContainer .secondaryText {
+        font-size: 21px;
+        /* padding: 1rem 2rem; */
+        padding-left: 0rem;
+        text-align: center;
+
+        border: 2px solid red;
+    }
+
+    .sectionThreeContainer img {
+        margin: 1rem auto;
+    }
 }

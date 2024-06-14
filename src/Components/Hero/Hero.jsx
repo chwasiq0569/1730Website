@@ -1,6 +1,6 @@
 import React from 'react'
 import './hero.css'
-import Header from '../Header/Header'
+// import Header from '../Header/Header'
 import PhoneIcon from "../../assets/phoneicon.png"
 import EmailIcon from "../../assets/maleicon.png"
 import ContactIcon from "../../assets/contacticon.png"
@@ -32,12 +32,11 @@ export default function Hero() {
     };
     return (
         <div className='heroContainer'>
-            <Header />
             <div className='heroText'>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span className='spaces'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                 {
                     "DAY 1, 7, 30 IS A BOUTIQUE CREATIVE AGENCY SPECIALIZING IN BRANDING, GROWTH & WEB DESIGN".split(" ").map((item, i) => (
-                        <motion.span key={i} className={i >= 3 ? "strongText" : ""} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.1, delay: i * 0.1 }}>
+                        <motion.span key={i} className={i > 3 ? "strongText" : ""} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.1, delay: i * 0.1 }}>
                             {item} &nbsp;
                         </motion.span>
                     ))

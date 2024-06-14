@@ -42,7 +42,6 @@ export default function SectionTwo() {
                             "DIGITAL",
                             "EXPERIENCES"].map((item, i) => (<>
                                 <motion.span className={item == "&" ? "bold" : item == "BLOSSOM" ? "broad" : item == "UNIQUE" ? "light" : ""} initial={{ opacity: isInView ? 0 : 1 }} animate={{ opacity: isInView ? 1 : 0 }} transition={{ duration: 0.1, delay: i * 0.1 }}>{item == "LINE" ? <img src={HorizontalLine} alt="horizontal_line" /> : item}&nbsp;</motion.span>
-                                {/* {item == "LINE" && <img src={HorizontalLine} alt="horizontal_line" />} */}
                                 {i == 3 | i == 5 | i == 8 | i == 11 ? <br /> : ""}
                             </>
                             ))

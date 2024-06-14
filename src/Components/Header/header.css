@@ -4,10 +4,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0.5rem 100px;
+
+    border: 2px solid red;
 }
 
 .headerContainer .logo {
     width: 150px;
+    border: 2px solid red;
 }
 
 .headerContainer .logo img {
@@ -18,6 +22,8 @@
 
 .headerContainer .navbar {
     display: flex;
+    border: 2px solid red;
+
 }
 
 .headerContainer .navbar .nav_items,
@@ -58,6 +64,8 @@
 .headerContainer .navbar .contact_details .social_icons_container {
     display: flex;
     align-items: center;
+    border: 2px solid red;
+
 }
 
 .headerContainer .navbar .contact_details .social_icons_container img {
@@ -74,4 +82,105 @@
 
 .headerContainer .navbar .contact_details .social_icons_container img:hover {
     transform: scale(1.2);
+}
+
+.headerContainer .mobileNavbar {
+    display: none;
+}
+
+.headerContainer .menuIcon {
+    display: none;
+}
+
+.mobileNavbar .menuIcon {
+    display: none;
+}
+
+@media only screen and (max-width: 950px) {
+    .headerContainer {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem 50px;
+        border: 2px solid red;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .headerContainer .navbar {
+        display: none;
+    }
+
+    .headerContainer .mobileNavbar {
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 300px;
+        min-height: 100vh;
+        background-color: white;
+        /* height: auto; */
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+
+        box-shadow: -2px 0px 33px -3px rgba(0, 0, 0, 0.26);
+    }
+
+    .headerContainer .menuIcon {
+        width: 25px;
+        height: 25px;
+
+        object-fit: contain;
+        display: block;
+
+        position: absolute;
+        right: 20px;
+    }
+
+    .headerContainer .mobileNavbar .nav_items li,
+    .headerContainer .mobileNavbar .contact_details li {
+        font-family: Apercu-Pro;
+        margin: 1rem 0;
+        list-style-type: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .headerContainer .mobileNavbar .nav_items li span {
+        font-family: Apercu-Bold-Pro;
+        font-size: 22px;
+        border-bottom: 2px solid black;
+    }
+
+    .headerContainer .mobileNavbar .contact_details .social_icons_container img {
+        width: 25px;
+        height: 25px;
+
+        object-fit: contain;
+        margin-right: 10px;
+
+        transition: all 0.3s ease;
+
+        cursor: pointer;
+    }
+
+    .mobileNavbar .menuIcon {
+        display: block;
+
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .headerContainer {
+        padding: 0.5rem 0.5rem;
+    }
 }

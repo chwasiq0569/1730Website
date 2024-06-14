@@ -5,6 +5,9 @@
 
     font-family: Apercu-Pro;
     padding: 0.5rem 100px;
+
+    border: 2px solid red;
+
 }
 
 .heroContainer .heroText {
@@ -14,7 +17,10 @@
     margin: 3rem 0;
     text-transform: uppercase;
     text-wrap: wrap;
+    /* padding-right: 17vw; */
     padding-right: 20rem;
+    border: 2px solid red;
+
 }
 
 .heroContainer .heroText .strongText {
@@ -26,13 +32,19 @@
 }
 
 .heroContainer .cta_buttons {
-    display: flex;
-    height: 75px;
-    min-width: max-content;
     width: 100%;
     max-width: 100%;
+
+    display: flex;
+
+    /* flex-direction: column; */
+    min-height: 75px;
+    height: max-content;
+    min-width: max-content;
     justify-content: flex-end;
     margin-top: 5rem;
+
+    border: 2px solid red;
 }
 
 .heroContainer .cta_buttons .threeDBtn {
@@ -50,14 +62,12 @@
     position: absolute;
     width: 200px;
     background-color: white;
-    /* width: max-content; */
     top: 0;
     left: 0;
     border: 3px solid #000000;
     border-radius: 25px;
     margin: 0;
     transition: all 0.2s ease;
-
     cursor: pointer;
 }
 
@@ -100,4 +110,73 @@
     font-weight: 600;
 
     margin-left: 1.5rem;
+}
+
+
+@media only screen and (max-width: 1100px) {
+    .heroContainer {
+        padding: 0.5rem 50px;
+    }
+
+    .heroContainer .heroText {
+        width: 100%;
+        font-size: 58px;
+        height: auto;
+        margin: 3rem 0;
+        text-transform: uppercase;
+        text-wrap: wrap;
+        padding-right: 8rem;
+        border: 2px solid red;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .heroContainer {
+        padding: 0.5rem 50px;
+        min-height: 90vh;
+    }
+
+
+    .heroContainer .heroText {
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+    .heroContainer .heroText .spaces {
+        display: none;
+    }
+
+    .heroContainer .cta_buttons {
+        flex-direction: column;
+        min-height: auto;
+        height: auto;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 0;
+    }
+
+    .heroContainer .cta_buttons .threeDBtn {
+        width: auto;
+        height: auto;
+        position: relative;
+        margin-top: -4.5rem;
+        margin-left: 2rem;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .heroContainer .heroText {
+        font-size: 36px;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .heroContainer {
+        padding: 0.5rem 0.5rem;
+        min-height: 80vh;
+    }
+
+    .heroContainer .heroText {
+        font-size: 28px;
+    }
 }
