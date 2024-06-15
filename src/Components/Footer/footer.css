@@ -28,7 +28,6 @@
 
 .footerContainer .lowerFooter {
     display: flex;
-
     margin-top: 3rem;
 }
 
@@ -47,13 +46,13 @@
     /* justify-content: space-evenly; */
     margin-top: 4rem;
     /* margin-left: ; */
-
 }
 
 
 .footerContainer .lowerFooter .rightContent .footerLinks .left,
 .footerContainer .lowerFooter .rightContent .footerLinks .right {
     margin-left: 8rem;
+
 }
 
 .footerContainer .lowerFooter .rightContent .footerLinks .left .linkItem,
@@ -95,4 +94,81 @@
     text-align: center;
     font-family: Apercu-Pro;
     margin: 2rem 0;
+}
+
+@media only screen and (max-width: 1200px) {
+    .footerContainer .lowerFooter .rightContent .footerHead {
+        font-family: Apercu-Pro;
+        font-size: 100px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .footerContainer .lowerFooter .rightContent .footerHead {
+        font-family: Apercu-Pro;
+        font-size: 75px;
+    }
+
+    .footerContainer .lowerFooter .leftImage {
+        height: 400px;
+    }
+
+    .footerContainer .lowerFooter .rightContent .footerLinks .left,
+    .footerContainer .lowerFooter .rightContent .footerLinks .right {
+        margin-left: 4rem;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .footerContainer .lowerFooter .rightContent .footerHead {
+        font-family: Apercu-Pro;
+        font-size: 60px;
+    }
+
+    .footerContainer .lowerFooter .leftImage {
+        height: 300px;
+    }
+
+    .footerContainer .lowerFooter .rightContent .footerLinks .left,
+    .footerContainer .lowerFooter .rightContent .footerLinks .right {
+        margin-left: 4rem;
+    }
+
+    .footerContainer .lowerFooter .rightContent .footerLinks {
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footerContainer .lowerFooter .rightContent .footerHead {
+        font-family: Apercu-Pro;
+        font-size: 60px;
+        margin-left: 2rem;
+
+    }
+
+    .footerContainer .upperFooter {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 2rem;
+
+    }
+
+    .footerContainer .upperFooter li {
+        margin: 0;
+    }
+
+    .footerContainer .lowerFooter .leftImage {
+        /* height: 300px; */
+        display: none;
+    }
+
+    .footerContainer .lowerFooter .rightContent .footerLinks .left,
+    .footerContainer .lowerFooter .rightContent .footerLinks .right {
+        margin-left: 2rem;
+    }
+
+    .footerContainer .lowerFooter .rightContent .footerLinks {
+        margin-top: 2rem;
+    }
 }

@@ -6,8 +6,6 @@
     font-family: Apercu-Pro;
     padding: 0.5rem 100px;
 
-    border: 2px solid red;
-
 }
 
 .heroContainer .heroText {
@@ -19,7 +17,6 @@
     text-wrap: wrap;
     /* padding-right: 17vw; */
     padding-right: 20rem;
-    border: 2px solid red;
 
 }
 
@@ -44,7 +41,6 @@
     justify-content: flex-end;
     margin-top: 5rem;
 
-    border: 2px solid red;
 }
 
 .heroContainer .cta_buttons .threeDBtn {
@@ -126,7 +122,6 @@
         text-transform: uppercase;
         text-wrap: wrap;
         padding-right: 8rem;
-        border: 2px solid red;
     }
 }
 

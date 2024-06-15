@@ -22,7 +22,6 @@
 
     padding: 3rem 300px;
 
-    border: 2px solid red;
 }
 
 .whoWeAreSectionContainer .secondaryText span {
@@ -35,13 +34,11 @@
 
     display: flex;
     justify-content: space-between;
-    border: 2px solid red
 }
 
 .whoWeAreSectionContainer .profiles .profile {
     width: 300px;
 
-    border: 2px solid red
 }
 
 .whoWeAreSectionContainer .profiles .profile img {

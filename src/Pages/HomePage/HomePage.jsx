@@ -34,7 +34,7 @@ export default function HomePage() {
                 <NFTSection />
                 <WhySection />
                 <WhoWeAreSection />
-                {/* <Footer /> */}
+                <Footer />
             </div>
         </div>
     )

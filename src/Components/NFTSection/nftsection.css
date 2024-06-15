@@ -5,7 +5,6 @@
     border-bottom: 4px solic black;
     padding-bottom: 2rem;
 
-    border: 2px solid red;
 
 }
 
@@ -37,13 +36,11 @@
     align-items: center;
     /* padding: 2rem 200px; */
 
-    border: 2px solid red;
 }
 
 .nftSectionContainer .coins img {
     width: 25%;
     object-fit: contain;
-    border: 2px solid red;
 }
 
 .nftSectionContainer .bDuckCoinDetails {
@@ -55,10 +52,7 @@
 }
 
 .nftSectionContainer .bDuckCoinDetails .leftSide,
-.nftSectionContainer .bDuckCoinDetails .rightSide {
-    border: 2px solid red;
-
-}
+.nftSectionContainer .bDuckCoinDetails .rightSide {}
 
 .nftSectionContainer .bDuckCoinDetails .leftSide {
     width: 60%;

@@ -21,18 +21,15 @@
 
     padding-bottom: 8rem;
 
-    border: 2px solid red;
 }
 
 
 .whySectionContainer .whySectionContent .leftSide {
     width: 70%;
-    border: 2px solid red;
 }
 
 .whySectionContainer .whySectionContent .rightSide {
     width: 30%;
-    border: 2px solid red;
 }
 
 .whySectionContainer .whySectionContent .rightSide img {
