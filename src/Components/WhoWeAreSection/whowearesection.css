@@ -21,6 +21,8 @@
     text-transform: uppercase;
 
     padding: 3rem 300px;
+
+    border: 2px solid red;
 }
 
 .whoWeAreSectionContainer .secondaryText span {
@@ -33,15 +35,18 @@
 
     display: flex;
     justify-content: space-between;
+    border: 2px solid red
 }
 
 .whoWeAreSectionContainer .profiles .profile {
     width: 300px;
+
+    border: 2px solid red
 }
 
 .whoWeAreSectionContainer .profiles .profile img {
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: auto;
     object-fit: contain;
 }
 
@@ -68,4 +73,73 @@
     font-family: Apercu-Pro;
     margin-top: 0.5rem;
     line-height: 1.5;
+}
+
+@media only screen and (max-width: 1200px) {
+    .whoWeAreSectionContainer .WhoWeAreSectionHead {
+        padding: 1rem 200px;
+    }
+
+    .whoWeAreSectionContainer .secondaryText {
+        padding: 3rem 200px;
+    }
+
+    .whoWeAreSectionContainer .profiles {
+        padding: 1rem 250px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .whoWeAreSectionContainer .WhoWeAreSectionHead {
+        padding: 1rem 100px;
+    }
+
+    .whoWeAreSectionContainer .secondaryText {
+        padding: 3rem 100px;
+    }
+
+    .whoWeAreSectionContainer .profiles {
+        padding: 1rem 100px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .whoWeAreSectionContainer .WhoWeAreSectionHead {
+        padding: 1rem 50px;
+    }
+
+    .whoWeAreSectionContainer .secondaryText {
+        padding: 3rem 50px;
+    }
+
+    .whoWeAreSectionContainer .profiles {
+        padding: 1rem 50px;
+    }
+
+    .whoWeAreSectionContainer .profiles .profile {
+        width: 45%;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .whoWeAreSectionContainer .WhoWeAreSectionHead {
+        padding: 1rem 0.5rem;
+    }
+
+    .whoWeAreSectionContainer .secondaryText {
+        padding: 3rem 0.5rem;
+        font-size: 22px;
+    }
+
+    .whoWeAreSectionContainer .profiles {
+        padding: 1rem 0.5rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .whoWeAreSectionContainer .profiles .profile {
+        width: 80%;
+        margin-bottom: 2rem;
+    }
 }

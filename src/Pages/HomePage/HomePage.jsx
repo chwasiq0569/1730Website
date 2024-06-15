@@ -28,12 +28,12 @@ export default function HomePage() {
                 </div>
                 <WorksSection />
                 <SectionThree />
-                {/*<Services />
+                <Services />
                 <Clients />
                 <WorldWarX />
                 <NFTSection />
-                <WhySection /> */}
-                {/* <WhoWeAreSection /> */}
+                <WhySection />
+                <WhoWeAreSection />
                 {/* <Footer /> */}
             </div>
         </div>

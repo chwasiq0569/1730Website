@@ -31,6 +31,7 @@
 }
 
 .nftSectionContainer .coins {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,11 +41,9 @@
 }
 
 .nftSectionContainer .coins img {
-    flex: 1;
+    width: 25%;
     object-fit: contain;
-
     border: 2px solid red;
-
 }
 
 .nftSectionContainer .bDuckCoinDetails {
@@ -53,18 +52,29 @@
     align-items: center;
     border-bottom: 3px solid black;
     padding-bottom: 5rem;
+}
+
+.nftSectionContainer .bDuckCoinDetails .leftSide,
+.nftSectionContainer .bDuckCoinDetails .rightSide {
+    border: 2px solid red;
 
 }
 
 .nftSectionContainer .bDuckCoinDetails .leftSide {
-    width: 65%;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.nftSectionContainer .bDuckCoinDetails .leftSide img {
+    width: 100%;
+    object-fit: contain;
+
+}
+
 .nftSectionContainer .bDuckCoinDetails .rightSide {
-    width: 35%;
+    width: 40%;
 }
 
 .nftSectionContainer .bDuckCoinDetails .rightSide p {
@@ -165,4 +175,67 @@
 
 .nftSectionContainer .curfluffleSection .logoAndLink .curfluffleLink:hover img {
     margin-left: 4rem;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .nftSectionContainer .bDuckCoinDetails .rightSide p,
+    .nftSectionContainer .curfluffleSection .logoAndLink p {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .nftSectionContainer .bDuckCoinDetails .rightSide p,
+    .nftSectionContainer .curfluffleSection .logoAndLink p {
+        font-size: 42px;
+    }
+
+    .nftSectionContainer .bDuckCoinDetails .rightSide .coinLink p {
+        font-size: 22px;
+    }
+
+    .nftSectionContainer .bDuckCoinDetails {
+        flex-direction: column;
+    }
+
+    .nftSectionContainer .bDuckCoinDetails .leftSide,
+    .nftSectionContainer .bDuckCoinDetails .rightSide {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nftSectionContainer .bDuckCoinDetails .rightSide p {
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    .nftSectionContainer .bDuckCoinDetails .rightSide .coinLink {
+        margin: 0 auto;
+    }
+
+    .nftSectionContainer .curfluffleSection {
+        flex-direction: column;
+        margin-top: 2rem;
+        padding-bottom: 4rem;
+    }
+
+    .nftSectionContainer .curfluffleSection .logoAndLink p {
+        text-align: center;
+
+        margin-top: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 475px) {
+
+    .nftSectionContainer .bDuckCoinDetails .rightSide p,
+    .nftSectionContainer .curfluffleSection .logoAndLink p {
+        font-size: 32px;
+    }
 }

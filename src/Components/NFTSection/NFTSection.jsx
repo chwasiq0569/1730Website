@@ -13,12 +13,12 @@ export default function NFTSection() {
     return (
         <div className='nftSectionContainer'>
             <p className="nftSectionHead">EARN & BET <span>&nbsp;&nbsp;WITH A SOLDIER NFT</span></p>
-            {/* <div className='coins'>
+            <div className='coins'>
                 <img src={BDuckCoin} alt="BDuck_Coin" />
                 <img src={BDuckCoinImg} alt="BDuck_Coin_Img" />
                 <img src={WorldWar0XCoinImg} alt="WorldWar0XCoinImg" />
                 <img src={WorldWar0XCoin} alt="WorldWar0XCoin" />
-            </div> */}
+            </div>
             <img className='soldiersCover' src={SoldiersCover} alt='soldiers_cover' />
             <div className='bDuckCoinDetails'>
                 <div className='leftSide'>

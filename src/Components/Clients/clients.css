@@ -7,15 +7,14 @@
 .clientsContainer .heads {
     display: flex;
     align-items: center;
-    margin: 0 200px;
+    padding: 0 200px;
+    border-bottom: 2px solid black;
 }
 
 .clientsContainer h1 {
     display: flex;
     align-items: center;
     height: 5rem;
-    /* padding: 1rem 0; */
-    /* border-bottom: 2px solid black; */
     font-family: Apercu-Light-Pro;
     text-align: left;
     flex: 1;
@@ -23,7 +22,7 @@
 
 .clientsContainer h1:nth-child(2),
 .clientsContainer h1:nth-child(3) {
-    border-bottom: 2px solid black;
+    /* border-bottom: 2px solid black; */
 }
 
 .clientsContainer .clientsList {
@@ -59,4 +58,71 @@
     font-weight: 700;
 
     margin: 1rem 0;
+}
+
+
+@media only screen and (max-width: 1100px) {
+    .clientsContainer .heads {
+        padding: 0 100px;
+    }
+
+    .clientsContainer .clientsList {
+        margin: 0 100px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .clientsContainer {
+        margin-top: 8rem;
+    }
+
+    .clientsContainer .heads {
+        padding: 0 50px;
+    }
+
+    .clientsContainer .clientsList {
+        margin: 0 50px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .clientsContainer .heads {
+        padding: 0 0.5rem;
+    }
+
+    .clientsContainer .clientsList {
+        margin: 0 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .clientsContainer {
+        margin-top: 4rem;
+    }
+
+    .clientsContainer .clientsList {
+        flex-direction: column;
+    }
+
+    .clientsContainer .clientsList .col:nth-child(1),
+    .clientsContainer .heads h1:nth-child(1) {
+        display: none;
+    }
+
+    .clientsContainer .clientsList {
+        flex-direction: column;
+    }
+
+    .clientsContainer .clientsList .col {
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .clientsContainer .clientsList .col:nth-child(3) {
+        border: none;
+    }
+
+    .clientsContainer .clientsList .col .listHead {
+        margin: 0.5rem 0;
+    }
 }

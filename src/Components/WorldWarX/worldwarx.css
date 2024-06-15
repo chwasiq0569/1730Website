@@ -5,7 +5,9 @@
 
 .worldwarxContainer .cover {
     display: flex;
-    padding: 0 200px;
+    padding: 0 100px;
+    width: 100%;
+    height: 500px;
 }
 
 .worldwarxContainer .cover .leftSide,
@@ -72,7 +74,7 @@
 }
 
 .worldwarxContainer .cover .rightSide img {
-    /* height: 90%; */
+    height: 100%;
     width: 100%;
     object-fit: contain;
     margin: 0;
@@ -81,7 +83,8 @@
 
 .worldwarxContainer .grandCover {
     width: 100%;
-    object-fit: contain;
+    min-height: 30vh;
+    object-fit: cover;
 
     margin-top: -5px;
 }
@@ -89,7 +92,6 @@
 .worldwarxContainer .gameDetails {
     display: flex;
     padding: 0 200px;
-
 
     margin-top: -5px;
 }
@@ -101,6 +103,7 @@
     align-items: center;
     justify-content: space-between;
     padding-top: 2rem;
+
 }
 
 .worldwarxContainer .gameDetails .leftSide .lower,
@@ -111,15 +114,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75%;
+    height: 70%;
+    margin-bottom: 2rem;
+}
+
+.worldwarxContainer .gameDetails .leftSide .upper img {
+    width: 100%;
+    object-fit: contain;
 }
 
 .worldwarxContainer .gameDetails .leftSide .lower {
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 25%;
-
+    height: 30%;
     border-top: 4px solid black;
 }
 
@@ -130,4 +138,77 @@
 
 .worldwarxContainer .gameDetails .rightSide {
     width: 30%;
+}
+
+.worldwarxContainer .gameDetails .rightSide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+@media only screen and (max-width: 1100px) {
+    .worldwarxContainer .cover .rightSide img {
+        /* border: 2px solid red; */
+        margin-top: 1rem;
+    }
+
+    .worldwarxContainer .gameDetails {
+        padding: 0 100px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .worldwarxContainer .cover {
+        height: 400px;
+        padding: 0 50px;
+    }
+
+    .worldwarxContainer .cover .leftSide h1 {
+        font-size: 60px;
+    }
+
+    .worldwarxContainer .gameDetails {
+        padding: 0 50px;
+    }
+}
+
+
+@media only screen and (max-width: 760px) {
+    .worldwarxContainer .cover {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .worldwarxContainer .cover .leftSide,
+    .worldwarxContainer .cover .rightSide {
+        width: 100%;
+    }
+
+    .worldwarxContainer .cover .rightSide {
+        height: 300px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .worldwarxContainer .cover,
+    .worldwarxContainer .gameDetails {
+        padding: 0 0.5rem;
+    }
+
+    .worldwarxContainer .gameDetails {
+        flex-direction: column;
+    }
+
+    .worldwarxContainer .gameDetails .leftSide,
+    .worldwarxContainer .gameDetails .rightSide {
+        width: 100%;
+    }
+
+    .worldwarxContainer .gameDetails .leftSide .lower {
+        height: 80px;
+    }
+
 }

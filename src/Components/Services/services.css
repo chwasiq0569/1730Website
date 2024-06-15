@@ -31,12 +31,55 @@
 
 .servicesContainer .servicesList .col .listHead {
     font-family: "Poppins", sans-serif;
-
     text-transform: uppercase;
-
     font-size: 13px;
-
     font-weight: 700;
-
     margin: 1rem 0;
+}
+
+
+@media only screen and (max-width: 1100px) {
+    .servicesContainer h1 {
+        padding: 1rem 100px;
+    }
+
+    .servicesContainer .servicesList {
+        margin: 0 100px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .servicesContainer h1 {
+        padding: 1rem 50px;
+    }
+
+    .servicesContainer .servicesList {
+        margin: 0 50px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .servicesContainer h1 {
+        padding: 1rem 0.5rem;
+    }
+
+    .servicesContainer .servicesList {
+        margin: 0rem 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .servicesContainer .servicesList {
+        flex-direction: column;
+    }
+
+    .servicesContainer .servicesList .col {
+        text-align: center;
+
+        margin-bottom: 1.5rem;
+    }
+
+    .servicesContainer .servicesList .col .listHead {
+        margin: 0.5rem 0;
+    }
 }
